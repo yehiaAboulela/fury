@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb83386641.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./imgs/final_logo_11.png"
+      type="image/x-icon"
+    />
+    <title>FURY</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./imgs/final_logo_11.png" class="logo" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  Custom Apparel<i class="fa-solid fa-plus plus"></i
+                  ><i class="fa-solid fa-minus minus"></i>
+                </a>
+                <div class="my-dropdown" style="width: 195px">
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Clothes.png" alt="" />
+                    <span class="ps-3 text-white">Clothes</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Bags.png" alt="" />
+                    <span class="ps-3 text-white">Bags</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Hats.png" alt="" />
+                    <span class="ps-3 text-white">Hats</span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >Business & gift products <i class="fa-solid fa-plus plus"></i
+                  ><i class="fa-solid fa-minus minus"></i
+                ></a>
+                <div class="my-dropdown" style="width: 285px">
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Package.png" alt="." />
+                    <span class="ps-3 text-white">Packaging</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/BC.png" alt="." />
+                    <span class="ps-3 text-white">Business cards</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Banner.png" alt="." />
+                    <span class="ps-3 text-white">Signs & banners</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Tent.png" alt="." />
+                    <span class="ps-3 text-white"
+                      >Event tents & booth tools</span
+                    >
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Mugs.png" alt="." />
+                    <span class="ps-3 text-white">⁠mugs, promo & gifts</span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >Services <i class="fa-solid fa-plus plus"></i
+                  ><i class="fa-solid fa-minus minus"></i
+                ></a>
+                <div class="my-dropdown" style="width: 247px">
+                  <a class="my-dropdown-item">
+                    <img src="./icons/ExpeairtDesigner.png" alt="" />
+                    <span class="ps-3 text-white">Call expert designer</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/normal_Designer.png" alt="" />
+                    <span class="ps-3 text-white">Call a designer</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Marker.png" alt="" />
+                    <span class="ps-3 text-white">Help with ⁠marketing</span>
+                  </a>
+                  <a class="my-dropdown-item">
+                    <img src="./icons/Develop.png" alt="" />
+                    <span class="ps-3 text-white">Vendor program</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <a class="p-2 pointer ms-auto text-white text-decoration-none last">
+              <img src="./icons/profile.png" alt="" />
+              <span>Log in</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <video class="intro-videos" autoplay>
+        <source src="./imgs/vid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </header>
+    <section id="ourClients" class="light-bg py-4 mb-5">
+      <div class="container">
+        <div class="row g-3 justify-content-center px-5">
+          <h1 class="h2 main-head text-center mb-4">Our Clients</h1>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/Group_15.png" alt="ford" />
+          </div>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/postage1.png" alt="amazon" />
+          </div>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/moyasar_logo.png" alt="rack" />
+          </div>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/moyasar_logo_1.png" alt="si" />
+          </div>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/moyasar_logo_2.png" alt="power hours" />
+          </div>
+          <div class="col-md-4 col-lg-2 flex-center">
+            <img src="./imgs/zid_en_logo_colored.png" alt="the home" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container about-container">
+        <h1 class="extra-lg main-head floating-heading">
+          Fury Digital <br />
+          Printing
+        </h1>
+        <div class="about-info gradiant-border">
+          <p class="mb-5 about-text">
+            But in truth we accuse those who are worthy of just hatred, who have
+            been softened by the flattery of present pleasures, and who have
+            been corrupted by what pains and what
+          </p>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="about-mini text-center flex-col-center">
+                <img src="./icons/Custmize.png" alt="" />
+                <h3 class="bold fs-6 mt-3">Customize</h3>
+                <h4 class="font-small fw-normal">Clothes, Bags and hats</h4>
+                <div class="flex-center mt-2 get-started-parent">
+                  <span class="bold fs-6 get-started-parent-text"
+                    >Get Started</span
+                  >
+                  <div
+                    class="rounded-circle borderr flex-center ms-1 arrow"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="about-mini text-center flex-col-center">
+                <img src="./icons/Poster.png" alt="" />
+                <h3 class="bold fs-6 mt-3">Signs & posters</h3>
+                <h4 class="font-small fw-normal">All printing items</h4>
+                <div class="flex-center mt-2 get-started-parent">
+                  <span class="bold fs-6 get-started-parent-text"
+                    >Get Started</span
+                  >
+                  <div
+                    class="rounded-circle borderr flex-center ms-1 arrow"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="about-mini text-center flex-col-center">
+                <img src="./icons/Designer.png" alt="" style="width: 75px" />
+                <h3 class="bold fs-6 mt-3">Call A Designer</h3>
+                <h4 class="font-small fw-normal">Experience Design</h4>
+                <div class="flex-center mt-2 get-started-parent">
+                  <span class="bold fs-6 get-started-parent-text"
+                    >Get Started</span
+                  >
+                  <div
+                    class="rounded-circle borderr flex-center ms-1 arrow"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="about-mini text-center flex-col-center">
+                <img src="./icons/Marcting.png" alt="" />
+                <h3 class="bold fs-6 mt-3">Call A Marketer</h3>
+                <h4 class="font-small fw-normal">Marketing assistance</h4>
+                <div class="flex-center mt-2 get-started-parent">
+                  <span class="bold fs-6 get-started-parent-text"
+                    >Get Started</span
+                  >
+                  <div
+                    class="rounded-circle borderr flex-center ms-1 arrow"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <h1 class="h2 main-head text-center">Our Services</h1>
+        <div class="flex-center">
+          <div class="seperator"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="serv-card gradiant-border toggle one min mb-3">
+              <div class="serv-card-footer">
+                <div>
+                  <h2 class="h3">Posters & Signs</h2>
+                  <p class="font-small hidden">4,350 Items</p>
+                </div>
+                <div class="browse-items">
+                  <a href="#">Browse Items </a>
+                  <div
+                    class="rounded-circle flex-center ms-1 arrow-static"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="serv-card gradiant-border toggle two lg mb-3">
+              <div class="serv-card-footer">
+                <div>
+                  <h2 class="h3">Accessories and bags</h2>
+                  <p class="font-small hidden">4,350 Items</p>
+                </div>
+                <div class="browse-items">
+                  <a href="#">Browse Items </a>
+                  <div
+                    class="rounded-circle flex-center ms-1 arrow-static"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="serv-card gradiant-border toggle lg wrong-image mb-3">
+              <div class="serv-card-footer">
+                <div>
+                  <h2 class="h3">Apparel</h2>
+                  <p class="font-small hidden">4,350 Items</p>
+                </div>
+                <div class="browse-items">
+                  <a href="#">Browse Items </a>
+                  <div
+                    class="rounded-circle flex-center ms-1 arrow-static"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="serv-card gradiant-border toggle four min mb-3">
+              <div class="serv-card-footer">
+                <div>
+                  <h2 class="h3">Call a Designer</h2>
+                  <p class="font-small hidden">4,350 Items</p>
+                </div>
+                <div class="browse-items">
+                  <a href="#">Browse Items </a>
+                  <div
+                    class="rounded-circle flex-center ms-1 arrow-static"
+                    style="width: 25px; height: 25px"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="collection" class="py-5">
+      <div class="container">
+        <h1 class="h2 main-head text-center">Season Collection</h1>
+        <div class="flex-center">
+          <div class="seperator"></div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-lg-4">
+            <div class="collection collection-lg one gradiant-border toggle">
+              <div class="collection-footer">
+                <h3 class="h3">T-Shirt</h3>
+                <button class="btn-main">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 collection-middle">
+            <div class="collection collection-min two gradiant-border toggle">
+              <div class="collection-footer">
+                <h3 class="h3">Jogger pants</h3>
+                <button class="btn-main">Order Now</button>
+              </div>
+            </div>
+            <div class="collection collection-min three gradiant-border toggle">
+              <div class="collection-footer">
+                <h3 class="h3">Elegant Hoodie</h3>
+                <button class="btn-main">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="collection collection-lg four gradiant-border toggle">
+              <div class="collection-footer">
+                <h3 class="h3">Polo T-Shirt</h3>
+                <button class="btn-main">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn-main-contrast mt-5">ALL PRODUCTS</button>
+        </div>
+      </div>
+    </section>
+    <section id="callDesigner" class="py-5">
+      <div class="message flex-center ms-auto me-5">
+        <img src="./icons/messages-3.png" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="row position-relative">
+          <div class="floating-call-designer">
+            <h1 class="extra-lg main-head">Call A Designer</h1>
+            <p class="font-small">
+              But indeed we both accuse them and deserve just hatred We lead
+              those who have been softened and corrupted by the flattery of
+              present pleasures, what pains and what
+            </p>
+            <button class="btn-main-contrast">schedule meeting</button>
+          </div>
+          <div class="col-md-3 col-12"></div>
+          <div class="col-md-9 col-12">
+            <div class="designer-girl flex-center">
+              <img src="./imgs/Designer_girl.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="instagram" class="py-5">
+      <div class="container">
+        <h1 class="h2 main-head text-center mb-3">Instagram pictures</h1>
+        <div class="flex-center">
+          <div class="seperator"></div>
+        </div>
+        <div class="carousel-parent">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="./imgs/Frame_1.png" alt="person" class="w-100" />
+            </div>
+            <div class="item">
+              <img src="./imgs/Frame_2.png" alt="person" class="w-100" />
+            </div>
+            <div class="item">
+              <img src="./imgs/Frame_3.png" alt="person" class="w-100" />
+            </div>
+            <div class="item">
+              <img src="./imgs/Frame_1.png" alt="person" class="w-100" />
+            </div>
+            <div class="item">
+              <img src="./imgs/Frame_3.png" alt="person" class="w-100" />
+            </div>
+            <div class="item">
+              <img src="./imgs/Frame_2.png" alt="person" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contactUs" class="py-5">
+      <div class="container-fluid ps-0">
+        <h1 class="h2 main-head text-center mb-3">Contact Us</h1>
+        <div class="flex-center">
+          <div class="seperator"></div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="contact-us-details flex-col-center">
+              <div>
+                <img src="./imgs/Typing_bro.png" alt="" />
+              </div>
+
+              <ul class="list-unstyled">
+                <li>
+                  <div class="my-list-item mb-3 position-relative">
+                    <img src="./icons/mingcute_location_fill.png" alt="" />
+                    <p class="s-bold mb-0 ms-2">
+                      Uhaul offices 24540 i-45 C004 Spring, TX, 77386
+                    </p>
+                    <img src="./imgs/Dots.png" class="dots" />
+                  </div>
+                </li>
+                <li>
+                  <div class="my-list-item mb-3">
+                    <img src="./icons/Frame_107.png" alt="" />
+                    <p class="s-bold mb-0">+1-(832) 800-4025</p>
+                  </div>
+                  <p class="main-head s-bold ms-2">
+                    contact you within 24 hours.
+                  </p>
+                </li>
+                <li class="s-bold">
+                  <div class="my-list-item">
+                    <img src="./icons/eva_email-fill.png" alt="" />
+                    <p class="mb-0 ms-2">info@furydpg.com</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form class="contact-form">
+              <div class="contact-input-parent mb-3">
+                <label for="fullName" class="mb-2">Full Name</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  class="form-control p-3"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="contact-input-parent mb-3">
+                <label for="email" class="mb-2">Email address</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="form-control p-3"
+                  placeholder="Enter Your email address"
+                />
+              </div>
+              <div class="contact-input-parent mb-3">
+                <label for="Supject" class="mb-2">Supject</label>
+                <input
+                  type="text"
+                  id="Supject"
+                  class="form-control p-3"
+                  placeholder="Enter Supject"
+                />
+              </div>
+              <div class="contact-input-parent mb-3">
+                <label for="Message" class="mb-2">Message</label>
+                <textarea
+                  id="Message"
+                  class="form-control p-3"
+                  placeholder="Leave your message hear"
+                  cols="30"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <div class="flex-center">
+                <button class="btn-main w-50 py-3 s-bold">send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-5 mt-5">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-lg-3 col-md-6">
+            <div class="flex-col-center">
+              <div class="mb-4">
+                <img
+                  src="./imgs/final_logo_11.png"
+                  alt="logo"
+                  style="width: 170px"
+                />
+              </div>
+              <p class="font-small mb-4">
+                But indeed we both accuse them and deserve just hatred We lead
+                those who have been softened and corrupted by the
+              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <div class="my-list-item mb-4">
+                    <img src="./icons/mingcute_location_fill.png" alt="" />
+                    <p class="mb-0 ms-2">
+                      Uhaul offices 24540 i-45 C004 Spring, TX, 77386
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="my-list-item mb-3">
+                    <img src="./icons/Frame_107.png" alt="" />
+                    <p class="mb-0">+1-(832) 800-4025</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="s-bold mb-3">SITE MAP</h4>
+            <ul class="list-unstyled ps-2">
+              <li><p>Home</p></li>
+              <li><p>Customize</p></li>
+              <li><p>Business & gift products</p></li>
+              <li><p>Call Design</p></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="s-bold mb-3">Company</h4>
+            <ul class="list-unstyled ps-2">
+              <li><p>About</p></li>
+              <li><p>Terms & Conditions - Security</p></li>
+              <li><p>Contact us</p></li>
+              <li><p>FAQS</p></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <form>
+              <div class="main-input-parent">
+                <label for="emailAddress" class="mb-2">Email Address</label>
+                <div class="input-wrapper">
+                  <img src="./imgs/sms.png" alt="" />
+                  <input
+                    type="email"
+                    id="emailAddress"
+                    placeholder="Email address"
+                  />
+                </div>
+                <button class="btn-main w-100 mt-3">SUBSCRIBE</button>
+              </div>
+            </form>
+            <div class="mt-5">
+              <h5 class="s-bold">JOIN US</h5>
+              <ul class="list-unstyled social">
+                <li><img src="./imgs/icon.png" alt="facebook" /></li>
+                <li>
+                  <img src="./imgs/icon_1.png" alt="instagram" class="ms-3" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot flex-center">
+        <p class="mb-0 font-small">
+          Copyright © 2024 Fury. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./carousel/owl.carousel.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
